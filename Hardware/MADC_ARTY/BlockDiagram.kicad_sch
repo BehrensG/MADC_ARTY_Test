@@ -1,0 +1,630 @@
+(kicad_sch
+	(version 20250114)
+	(generator "eeschema")
+	(generator_version "9.0")
+	(uuid "ba49d34c-bfc7-454a-b8da-586169cf9d97")
+	(paper "A4")
+	(lib_symbols
+		(symbol "Connector_Generic:Conn_01x01"
+			(pin_names
+				(offset 1.016)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "J"
+				(at 0 2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "Conn_01x01"
+				(at 0 -2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Generic connector, single row, 01x01, script generated (kicad-library-utils/schlib/autogen/connector/)"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "connector"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "Connector*:*_1x??_*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "Conn_01x01_1_1"
+				(rectangle
+					(start -1.27 1.27)
+					(end 1.27 -1.27)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(rectangle
+					(start -1.27 0.127)
+					(end 0 -0.127)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin passive line
+					(at -5.08 0 0)
+					(length 3.81)
+					(name "Pin_1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+	)
+	(wire
+		(pts
+			(xy 144.78 59.69) (xy 149.86 59.69)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "247b2acb-8f34-4a01-8e23-e79322280cc9")
+	)
+	(wire
+		(pts
+			(xy 107.95 69.85) (xy 113.03 69.85)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "45437e77-403e-42d8-94b4-dccfd753d29a")
+	)
+	(wire
+		(pts
+			(xy 71.12 59.69) (xy 76.2 59.69)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6ffcd1bc-6ccb-40b9-96bb-915fa51ee1d4")
+	)
+	(wire
+		(pts
+			(xy 144.78 69.85) (xy 149.86 69.85)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7baa23b8-b13a-4bd3-a8ef-4b9edd8332a9")
+	)
+	(wire
+		(pts
+			(xy 107.95 59.69) (xy 113.03 59.69)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a37d1be4-6714-4e59-8803-9ff7e8d6217a")
+	)
+	(wire
+		(pts
+			(xy 71.12 69.85) (xy 76.2 69.85)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f7776af5-281b-4059-9f0e-816c30547a0b")
+	)
+	(symbol
+		(lib_id "Connector_Generic:Conn_01x01")
+		(at 66.04 69.85 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "0d7a4111-002e-4f20-85d8-3a5ec2b709eb")
+		(property "Reference" "J2"
+			(at 66.04 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Conn_01x01"
+			(at 66.04 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 66.04 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 66.04 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x01, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 66.04 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "c0dca1d9-ed7a-4e4a-9b17-27633996ccb0")
+		)
+		(instances
+			(project "MADC_ARTY"
+				(path "/eadab778-ea7c-433e-b0bd-0d0c238907e0/37dfacfc-f3f5-4a09-9e7e-ab0b8ea302f6"
+					(reference "J2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector_Generic:Conn_01x01")
+		(at 66.04 59.69 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "c5021e34-f69c-4096-8b01-dcf0b507816d")
+		(property "Reference" "J1"
+			(at 66.04 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Conn_01x01"
+			(at 66.04 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 66.04 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 66.04 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x01, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 66.04 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "b564aba5-7910-4471-9e19-25aa7f3ff82f")
+		)
+		(instances
+			(project ""
+				(path "/eadab778-ea7c-433e-b0bd-0d0c238907e0/37dfacfc-f3f5-4a09-9e7e-ab0b8ea302f6"
+					(reference "J1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(sheet
+		(at 113.03 55.88)
+		(size 31.75 17.78)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 255 255 194 1.0000)
+		)
+		(uuid "b2131341-7d85-419f-a559-e014f1324d0f")
+		(property "Sheetname" "Analog Channels"
+			(at 113.03 55.1684 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "AnalogChannels.kicad_sch"
+			(at 113.03 74.2446 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "IN_P" input
+			(at 113.03 59.69 180)
+			(uuid "b6d6d1fb-3b5c-4c2e-a68f-0b9a7430c2a5")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "OUT_N" output
+			(at 144.78 69.85 0)
+			(uuid "94042988-b236-44a6-ab19-2142edf18e32")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "OUT_P" output
+			(at 144.78 59.69 0)
+			(uuid "14ce388d-1eeb-410a-a713-84e1a7150bab")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "IN_N" input
+			(at 113.03 69.85 180)
+			(uuid "f645babc-4835-4bb6-9dd4-61be7249a61b")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(instances
+			(project "MADC_ARTY"
+				(path "/eadab778-ea7c-433e-b0bd-0d0c238907e0/37dfacfc-f3f5-4a09-9e7e-ab0b8ea302f6"
+					(page "3")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 76.2 104.14)
+		(size 106.68 27.94)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 255 255 194 1.0000)
+		)
+		(uuid "ddf5c151-5aca-4d49-a203-31fb23de6825")
+		(property "Sheetname" "Power"
+			(at 76.2 103.4284 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "Power.kicad_sch"
+			(at 76.2 132.6646 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "MADC_ARTY"
+				(path "/eadab778-ea7c-433e-b0bd-0d0c238907e0/37dfacfc-f3f5-4a09-9e7e-ab0b8ea302f6"
+					(page "4")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 76.2 55.88)
+		(size 31.75 30.48)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 255 255 194 1.0000)
+		)
+		(uuid "e5f31b97-6641-44bd-9522-ccfcbaab9fbc")
+		(property "Sheetname" "Auto Zero"
+			(at 76.2 55.1684 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "AutoZero.kicad_sch"
+			(at 76.2 86.9446 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "INPUT_CTR" input
+			(at 107.95 82.55 0)
+			(uuid "3e3de41c-51a4-4ae5-b4d5-90dba9738266")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "AIN_P" input
+			(at 76.2 59.69 180)
+			(uuid "55c2ade6-b093-43f9-b52f-ec4cea1dc100")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "AIN_N" input
+			(at 76.2 69.85 180)
+			(uuid "92d7cf16-7ba4-438f-b079-82550c866e30")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "AUTO_ZERO_CTR" input
+			(at 107.95 78.74 0)
+			(uuid "c943c8da-ec12-472c-8243-7b458dc85549")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "AZ_OUT_P" output
+			(at 107.95 59.69 0)
+			(uuid "7f2952ea-b930-499c-b35f-5897f1d552c3")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "AZ_OUT_N" output
+			(at 107.95 69.85 0)
+			(uuid "2205ce3a-c1b8-4c1e-8576-1e4c75409275")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(instances
+			(project "MADC_ARTY"
+				(path "/eadab778-ea7c-433e-b0bd-0d0c238907e0/37dfacfc-f3f5-4a09-9e7e-ab0b8ea302f6"
+					(page "6")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 149.86 55.88)
+		(size 33.02 30.48)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 255 255 194 1.0000)
+		)
+		(uuid "f5ce1507-ef9d-4fa7-a495-4c28df14ac7f")
+		(property "Sheetname" "Gain"
+			(at 149.86 55.1684 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "Gain.kicad_sch"
+			(at 149.86 86.9446 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "GAIN_x100" input
+			(at 182.88 82.55 0)
+			(uuid "c4e8df16-77fb-4db6-b0e8-9d7673b5e0f2")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "ANALOG" output
+			(at 182.88 59.69 0)
+			(uuid "07759a16-c107-417c-bcec-c4e7c677271c")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "G_IN_P" input
+			(at 149.86 59.69 180)
+			(uuid "88e18e03-fdb9-4201-aba3-4ceacab46672")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "GAIN_x10" input
+			(at 182.88 78.74 0)
+			(uuid "08585998-26d7-4b0a-8748-d2cfd73ff16c")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "G_IN_N" input
+			(at 149.86 69.85 180)
+			(uuid "4040d07a-42a0-42e4-8cf4-b4859558a029")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(instances
+			(project "MADC_ARTY"
+				(path "/eadab778-ea7c-433e-b0bd-0d0c238907e0/37dfacfc-f3f5-4a09-9e7e-ab0b8ea302f6"
+					(page "5")
+				)
+			)
+		)
+	)
+)
