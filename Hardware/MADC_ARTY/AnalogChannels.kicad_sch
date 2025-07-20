@@ -268,7 +268,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Device:VoltageDivider"
+		(symbol "Device:VoltageDivider_CenterPin3"
 			(pin_names
 				(offset 0)
 				(hide yes)
@@ -284,7 +284,7 @@
 					)
 				)
 			)
-			(property "Value" "VoltageDivider"
+			(property "Value" "VoltageDivider_CenterPin3"
 				(at -2.54 0 90)
 				(effects
 					(font
@@ -310,7 +310,7 @@
 					(hide yes)
 				)
 			)
-			(property "Description" "Voltage divider"
+			(property "Description" "Voltage divider, center on pin 3"
 				(at 0 0 0)
 				(effects
 					(font
@@ -337,7 +337,7 @@
 					(hide yes)
 				)
 			)
-			(symbol "VoltageDivider_0_1"
+			(symbol "VoltageDivider_CenterPin3_0_1"
 				(rectangle
 					(start -1.27 -3.81)
 					(end 1.27 3.81)
@@ -431,7 +431,7 @@
 					)
 				)
 			)
-			(symbol "VoltageDivider_1_1"
+			(symbol "VoltageDivider_CenterPin3_1_1"
 				(pin passive line
 					(at 0 6.35 270)
 					(length 2.54)
@@ -460,7 +460,7 @@
 							)
 						)
 					)
-					(number "3"
+					(number "2"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -478,7 +478,7 @@
 							)
 						)
 					)
-					(number "2"
+					(number "3"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -4466,7 +4466,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "04105a9e-8cdc-456d-ad82-b2e8f21889d4")
-		(property "Reference" "#PWR014"
+		(property "Reference" "#PWR011"
 			(at 115.57 193.04 0)
 			(effects
 				(font
@@ -4528,7 +4528,7 @@
 			)
 			(project ""
 				(path "/eadab778-ea7c-433e-b0bd-0d0c238907e0/37dfacfc-f3f5-4a09-9e7e-ab0b8ea302f6/b2131341-7d85-419f-a559-e014f1324d0f"
-					(reference "#PWR014")
+					(reference "#PWR011")
 					(unit 1)
 				)
 			)
@@ -4634,6 +4634,77 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:VoltageDivider_CenterPin3")
+		(at 207.01 95.25 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "05acbdc8-d235-477d-83a5-9532b47d76b0")
+		(property "Reference" "RN2"
+			(at 207.01 88.9 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "MPMT4001AT1"
+			(at 207.01 91.44 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
+			(at 207.01 107.315 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 207.01 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Voltage divider, center on pin 3"
+			(at 207.01 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "a4f1382b-40f2-4087-a5ad-2feb79743e83")
+		)
+		(pin "2"
+			(uuid "377a9ca4-155f-430e-8320-917cd1f02add")
+		)
+		(pin "3"
+			(uuid "4ee64e86-4dd5-45eb-8d36-ebd2fda2a40f")
+		)
+		(instances
+			(project "MADC_ARTY"
+				(path "/eadab778-ea7c-433e-b0bd-0d0c238907e0/37dfacfc-f3f5-4a09-9e7e-ab0b8ea302f6/b2131341-7d85-419f-a559-e014f1324d0f"
+					(reference "RN2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Transistor_FET:MMBF4392")
 		(at 209.55 40.64 0)
 		(mirror y)
@@ -4730,7 +4801,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "0efc2048-88ce-4adf-8022-bf6d30b90a66")
-		(property "Reference" "#PWR012"
+		(property "Reference" "#PWR09"
 			(at 69.85 39.37 0)
 			(effects
 				(font
@@ -4792,7 +4863,7 @@
 			)
 			(project "DIFF_MEAS"
 				(path "/eadab778-ea7c-433e-b0bd-0d0c238907e0/37dfacfc-f3f5-4a09-9e7e-ab0b8ea302f6/b2131341-7d85-419f-a559-e014f1324d0f"
-					(reference "#PWR012")
+					(reference "#PWR09")
 					(unit 1)
 				)
 			)
@@ -4887,7 +4958,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "17ae0898-5a5d-48b2-90d2-3256030be236")
-		(property "Reference" "U4"
+		(property "Reference" "U3"
 			(at 58.928 124.206 0)
 			(effects
 				(font
@@ -4965,7 +5036,7 @@
 			)
 			(project ""
 				(path "/eadab778-ea7c-433e-b0bd-0d0c238907e0/37dfacfc-f3f5-4a09-9e7e-ab0b8ea302f6/b2131341-7d85-419f-a559-e014f1324d0f"
-					(reference "U4")
+					(reference "U3")
 					(unit 1)
 				)
 			)
@@ -4980,7 +5051,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "191bd50a-fb50-4fc5-8a89-76fc372f6a40")
-		(property "Reference" "#PWR018"
+		(property "Reference" "#PWR015"
 			(at 180.34 130.81 0)
 			(effects
 				(font
@@ -5043,7 +5114,7 @@
 			)
 			(project "DIFF_MEAS"
 				(path "/eadab778-ea7c-433e-b0bd-0d0c238907e0/37dfacfc-f3f5-4a09-9e7e-ab0b8ea302f6/b2131341-7d85-419f-a559-e014f1324d0f"
-					(reference "#PWR018")
+					(reference "#PWR015")
 					(unit 1)
 				)
 			)
@@ -5159,7 +5230,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "1f192561-31ca-4ade-9b86-26aa10380593")
-		(property "Reference" "U3"
+		(property "Reference" "U2"
 			(at 231.14 101.6 0)
 			(effects
 				(font
@@ -5255,7 +5326,7 @@
 			)
 			(project ""
 				(path "/eadab778-ea7c-433e-b0bd-0d0c238907e0/37dfacfc-f3f5-4a09-9e7e-ab0b8ea302f6/b2131341-7d85-419f-a559-e014f1324d0f"
-					(reference "U3")
+					(reference "U2")
 					(unit 2)
 				)
 			)
@@ -5270,7 +5341,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "289ebee3-f221-4785-9a1d-4541761ae483")
-		(property "Reference" "U2"
+		(property "Reference" "U1"
 			(at 45.72 101.6 0)
 			(effects
 				(font
@@ -5366,7 +5437,7 @@
 			)
 			(project ""
 				(path "/eadab778-ea7c-433e-b0bd-0d0c238907e0/37dfacfc-f3f5-4a09-9e7e-ab0b8ea302f6/b2131341-7d85-419f-a559-e014f1324d0f"
-					(reference "U2")
+					(reference "U1")
 					(unit 1)
 				)
 			)
@@ -5464,7 +5535,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "36f163ee-32b0-47b3-828f-f5dcec08bbc4")
-		(property "Reference" "#PWR011"
+		(property "Reference" "#PWR08"
 			(at 62.23 184.15 0)
 			(effects
 				(font
@@ -5526,7 +5597,7 @@
 			)
 			(project "DIFF_MEAS"
 				(path "/eadab778-ea7c-433e-b0bd-0d0c238907e0/37dfacfc-f3f5-4a09-9e7e-ab0b8ea302f6/b2131341-7d85-419f-a559-e014f1324d0f"
-					(reference "#PWR011")
+					(reference "#PWR08")
 					(unit 1)
 				)
 			)
@@ -5626,7 +5697,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "3a00dc09-4595-40ae-94da-623b9becbf07")
-		(property "Reference" "U4"
+		(property "Reference" "U3"
 			(at 195.326 125.222 0)
 			(effects
 				(font
@@ -5704,91 +5775,8 @@
 			)
 			(project ""
 				(path "/eadab778-ea7c-433e-b0bd-0d0c238907e0/37dfacfc-f3f5-4a09-9e7e-ab0b8ea302f6/b2131341-7d85-419f-a559-e014f1324d0f"
-					(reference "U4")
+					(reference "U3")
 					(unit 2)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:VoltageDivider")
-		(at 69.85 95.25 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "3bd97672-eebd-4dbf-a909-ec60d9758fa4")
-		(property "Reference" "RN1"
-			(at 69.85 88.9 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "MPMT4001AT1"
-			(at 69.85 91.44 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
-			(at 69.85 107.315 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 69.85 100.33 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Voltage divider"
-			(at 69.85 95.25 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "26d05da9-c63c-4070-bc5b-3bebd7745a8c")
-		)
-		(pin "3"
-			(uuid "536e6a8b-83fe-451d-a5f2-9f9bd2479d44")
-		)
-		(pin "1"
-			(uuid "01ee84f5-e70d-4889-ae50-2e8554e4745a")
-		)
-		(instances
-			(project ""
-				(path "/06a56fb9-779c-428e-b281-14ac9294755f/ce8ead21-c650-4940-b61e-074f59a08930/0ff5f57b-fb5c-467e-9068-b1c62d9700a2/5bbd8ab0-e231-4ea0-9449-a6b26682a18d"
-					(reference "RN7")
-					(unit 1)
-				)
-			)
-			(project ""
-				(path "/6646e323-339e-4f7a-9218-832656e830ca/eaeb4171-326a-4de0-96fd-c8b097253ea9/d85fd9f8-03b5-4b51-8e86-adf67d4a6e57/abe97e2d-f63c-4f51-9b80-f4693e9bbd47"
-					(reference "RN1")
-					(unit 1)
-				)
-			)
-			(project ""
-				(path "/eadab778-ea7c-433e-b0bd-0d0c238907e0/37dfacfc-f3f5-4a09-9e7e-ab0b8ea302f6/b2131341-7d85-419f-a559-e014f1324d0f"
-					(reference "RN1")
-					(unit 1)
 				)
 			)
 		)
@@ -5803,7 +5791,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "40e1f60a-f62a-4026-a89a-b948289af8a1")
-		(property "Reference" "U4"
+		(property "Reference" "U3"
 			(at 63.5 179.0699 0)
 			(effects
 				(font
@@ -5881,7 +5869,7 @@
 			)
 			(project ""
 				(path "/eadab778-ea7c-433e-b0bd-0d0c238907e0/37dfacfc-f3f5-4a09-9e7e-ab0b8ea302f6/b2131341-7d85-419f-a559-e014f1324d0f"
-					(reference "U4")
+					(reference "U3")
 					(unit 3)
 				)
 			)
@@ -5896,7 +5884,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "4cf7bdd8-adaf-4a8b-882f-f289fa747a3f")
-		(property "Reference" "U2"
+		(property "Reference" "U1"
 			(at 114.3 58.42 0)
 			(effects
 				(font
@@ -5992,7 +5980,7 @@
 			)
 			(project ""
 				(path "/eadab778-ea7c-433e-b0bd-0d0c238907e0/37dfacfc-f3f5-4a09-9e7e-ab0b8ea302f6/b2131341-7d85-419f-a559-e014f1324d0f"
-					(reference "U2")
+					(reference "U1")
 					(unit 3)
 				)
 			)
@@ -6164,89 +6152,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:VoltageDivider")
-		(at 207.01 95.25 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "52806d44-26a8-46b7-a001-7aa02eb76250")
-		(property "Reference" "RN2"
-			(at 207.01 88.9 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "MPMT4001AT1"
-			(at 207.01 91.44 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
-			(at 207.01 107.315 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 207.01 100.33 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Voltage divider"
-			(at 207.01 95.25 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "01ba4d14-dfae-49d9-84e5-90d6c9460a74")
-		)
-		(pin "3"
-			(uuid "b3c72774-c785-4dc8-a2c4-10be83efb4fc")
-		)
-		(pin "1"
-			(uuid "d9703997-345a-44b9-9f01-8c14d85fa277")
-		)
-		(instances
-			(project "DIFF_MEAS"
-				(path "/06a56fb9-779c-428e-b281-14ac9294755f/ce8ead21-c650-4940-b61e-074f59a08930/0ff5f57b-fb5c-467e-9068-b1c62d9700a2/5bbd8ab0-e231-4ea0-9449-a6b26682a18d"
-					(reference "RN8")
-					(unit 1)
-				)
-			)
-			(project "DIFF_MEAS"
-				(path "/6646e323-339e-4f7a-9218-832656e830ca/eaeb4171-326a-4de0-96fd-c8b097253ea9/d85fd9f8-03b5-4b51-8e86-adf67d4a6e57/abe97e2d-f63c-4f51-9b80-f4693e9bbd47"
-					(reference "RN2")
-					(unit 1)
-				)
-			)
-			(project "DIFF_MEAS"
-				(path "/eadab778-ea7c-433e-b0bd-0d0c238907e0/37dfacfc-f3f5-4a09-9e7e-ab0b8ea302f6/b2131341-7d85-419f-a559-e014f1324d0f"
-					(reference "RN2")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:VCC")
 		(at 62.23 172.72 0)
 		(unit 1)
@@ -6256,7 +6161,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "54500fac-45a1-4135-8ac3-ad637f5a2a7d")
-		(property "Reference" "#PWR010"
+		(property "Reference" "#PWR07"
 			(at 62.23 176.53 0)
 			(effects
 				(font
@@ -6318,7 +6223,7 @@
 			)
 			(project "DIFF_MEAS"
 				(path "/eadab778-ea7c-433e-b0bd-0d0c238907e0/37dfacfc-f3f5-4a09-9e7e-ab0b8ea302f6/b2131341-7d85-419f-a559-e014f1324d0f"
-					(reference "#PWR010")
+					(reference "#PWR07")
 					(unit 1)
 				)
 			)
@@ -6333,7 +6238,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "556b8def-17e7-4d7e-8b8d-4a523d181911")
-		(property "Reference" "U2"
+		(property "Reference" "U1"
 			(at 93.98 44.45 0)
 			(effects
 				(font
@@ -6429,7 +6334,7 @@
 			)
 			(project ""
 				(path "/eadab778-ea7c-433e-b0bd-0d0c238907e0/37dfacfc-f3f5-4a09-9e7e-ab0b8ea302f6/b2131341-7d85-419f-a559-e014f1324d0f"
-					(reference "U2")
+					(reference "U1")
 					(unit 4)
 				)
 			)
@@ -6524,7 +6429,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "707ba4bf-9f07-47f7-9b29-a692f34e5e1d")
-		(property "Reference" "#PWR019"
+		(property "Reference" "#PWR016"
 			(at 207.01 39.37 0)
 			(effects
 				(font
@@ -6586,7 +6491,7 @@
 			)
 			(project "DIFF_MEAS"
 				(path "/eadab778-ea7c-433e-b0bd-0d0c238907e0/37dfacfc-f3f5-4a09-9e7e-ab0b8ea302f6/b2131341-7d85-419f-a559-e014f1324d0f"
-					(reference "#PWR019")
+					(reference "#PWR016")
 					(unit 1)
 				)
 			)
@@ -6602,7 +6507,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "7bb00645-4fd0-49f1-8d73-8bff4c1cb4dd")
-		(property "Reference" "#PWR015"
+		(property "Reference" "#PWR012"
 			(at 151.13 177.8 0)
 			(effects
 				(font
@@ -6664,7 +6569,7 @@
 			)
 			(project "DIFF_MEAS"
 				(path "/eadab778-ea7c-433e-b0bd-0d0c238907e0/37dfacfc-f3f5-4a09-9e7e-ab0b8ea302f6/b2131341-7d85-419f-a559-e014f1324d0f"
-					(reference "#PWR015")
+					(reference "#PWR012")
 					(unit 1)
 				)
 			)
@@ -6780,7 +6685,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "7f221fc7-b3ea-4a62-af2b-424d1aee8db6")
-		(property "Reference" "#PWR013"
+		(property "Reference" "#PWR010"
 			(at 115.57 177.8 0)
 			(effects
 				(font
@@ -6842,7 +6747,7 @@
 			)
 			(project "DIFF_MEAS"
 				(path "/eadab778-ea7c-433e-b0bd-0d0c238907e0/37dfacfc-f3f5-4a09-9e7e-ab0b8ea302f6/b2131341-7d85-419f-a559-e014f1324d0f"
-					(reference "#PWR013")
+					(reference "#PWR010")
 					(unit 1)
 				)
 			)
@@ -7005,6 +6910,77 @@
 			(project "DIFF_MEAS"
 				(path "/eadab778-ea7c-433e-b0bd-0d0c238907e0/37dfacfc-f3f5-4a09-9e7e-ab0b8ea302f6/b2131341-7d85-419f-a559-e014f1324d0f"
 					(reference "R9")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:VoltageDivider_CenterPin3")
+		(at 69.85 95.25 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "840afc62-5ede-4b4e-b52d-2722db813b00")
+		(property "Reference" "RN1"
+			(at 69.85 88.9 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "MPMT4001AT1"
+			(at 69.85 91.44 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
+			(at 69.85 107.315 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 69.85 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Voltage divider, center on pin 3"
+			(at 69.85 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "39b5dd0b-c7ca-4859-b7cc-a5b2293e655b")
+		)
+		(pin "2"
+			(uuid "2db1fa24-56e8-4198-826d-0a45164d8b4b")
+		)
+		(pin "3"
+			(uuid "1be77bf0-b2f2-4548-8126-640a02f03b7d")
+		)
+		(instances
+			(project ""
+				(path "/eadab778-ea7c-433e-b0bd-0d0c238907e0/37dfacfc-f3f5-4a09-9e7e-ab0b8ea302f6/b2131341-7d85-419f-a559-e014f1324d0f"
+					(reference "RN1")
 					(unit 1)
 				)
 			)
@@ -7272,7 +7248,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "9a11efa3-b102-4d4b-870a-b184b497fc23")
-		(property "Reference" "U2"
+		(property "Reference" "U1"
 			(at 93.98 101.6 0)
 			(effects
 				(font
@@ -7368,7 +7344,7 @@
 			)
 			(project ""
 				(path "/eadab778-ea7c-433e-b0bd-0d0c238907e0/37dfacfc-f3f5-4a09-9e7e-ab0b8ea302f6/b2131341-7d85-419f-a559-e014f1324d0f"
-					(reference "U2")
+					(reference "U1")
 					(unit 2)
 				)
 			)
@@ -7464,7 +7440,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "a02b1aea-52d3-4b56-808f-a3913bc93819")
-		(property "Reference" "#PWR016"
+		(property "Reference" "#PWR013"
 			(at 151.13 193.04 0)
 			(effects
 				(font
@@ -7526,7 +7502,7 @@
 			)
 			(project "DIFF_MEAS"
 				(path "/eadab778-ea7c-433e-b0bd-0d0c238907e0/37dfacfc-f3f5-4a09-9e7e-ab0b8ea302f6/b2131341-7d85-419f-a559-e014f1324d0f"
-					(reference "#PWR016")
+					(reference "#PWR013")
 					(unit 1)
 				)
 			)
@@ -7813,7 +7789,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "b4826efc-5f84-4ca2-ad01-5ce943f33b90")
-		(property "Reference" "U2"
+		(property "Reference" "U1"
 			(at 19.05 179.0699 0)
 			(effects
 				(font
@@ -7909,7 +7885,7 @@
 			)
 			(project ""
 				(path "/eadab778-ea7c-433e-b0bd-0d0c238907e0/37dfacfc-f3f5-4a09-9e7e-ab0b8ea302f6/b2131341-7d85-419f-a559-e014f1324d0f"
-					(reference "U2")
+					(reference "U1")
 					(unit 5)
 				)
 			)
@@ -7925,7 +7901,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "b7e75dab-d1b4-41e2-ae54-a1bbf6c94d55")
-		(property "Reference" "#PWR08"
+		(property "Reference" "#PWR05"
 			(at 39.37 184.15 0)
 			(effects
 				(font
@@ -7987,7 +7963,7 @@
 			)
 			(project "DIFF_MEAS"
 				(path "/eadab778-ea7c-433e-b0bd-0d0c238907e0/37dfacfc-f3f5-4a09-9e7e-ab0b8ea302f6/b2131341-7d85-419f-a559-e014f1324d0f"
-					(reference "#PWR08")
+					(reference "#PWR05")
 					(unit 1)
 				)
 			)
@@ -8163,7 +8139,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "c35385ef-a477-41e7-956a-db7cb5766a4d")
-		(property "Reference" "U3"
+		(property "Reference" "U2"
 			(at 231.14 44.45 0)
 			(effects
 				(font
@@ -8259,7 +8235,7 @@
 			)
 			(project ""
 				(path "/eadab778-ea7c-433e-b0bd-0d0c238907e0/37dfacfc-f3f5-4a09-9e7e-ab0b8ea302f6/b2131341-7d85-419f-a559-e014f1324d0f"
-					(reference "U3")
+					(reference "U2")
 					(unit 4)
 				)
 			)
@@ -8781,7 +8757,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "cfa24b35-9b18-4501-9f41-b34b7cf2457a")
-		(property "Reference" "#PWR09"
+		(property "Reference" "#PWR06"
 			(at 43.18 130.81 0)
 			(effects
 				(font
@@ -8844,7 +8820,7 @@
 			)
 			(project ""
 				(path "/eadab778-ea7c-433e-b0bd-0d0c238907e0/37dfacfc-f3f5-4a09-9e7e-ab0b8ea302f6/b2131341-7d85-419f-a559-e014f1324d0f"
-					(reference "#PWR09")
+					(reference "#PWR06")
 					(unit 1)
 				)
 			)
@@ -8860,7 +8836,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "d3d4319a-7b8e-4289-b62d-6bfb396d6e03")
-		(property "Reference" "U3"
+		(property "Reference" "U2"
 			(at 40.64 179.0699 0)
 			(effects
 				(font
@@ -8956,7 +8932,7 @@
 			)
 			(project ""
 				(path "/eadab778-ea7c-433e-b0bd-0d0c238907e0/37dfacfc-f3f5-4a09-9e7e-ab0b8ea302f6/b2131341-7d85-419f-a559-e014f1324d0f"
-					(reference "U3")
+					(reference "U2")
 					(unit 5)
 				)
 			)
@@ -9052,7 +9028,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "e13b447c-5f88-4300-83a0-ebb0a2e9db29")
-		(property "Reference" "#PWR06"
+		(property "Reference" "#PWR03"
 			(at 34.29 120.65 0)
 			(effects
 				(font
@@ -9115,7 +9091,7 @@
 			)
 			(project ""
 				(path "/eadab778-ea7c-433e-b0bd-0d0c238907e0/37dfacfc-f3f5-4a09-9e7e-ab0b8ea302f6/b2131341-7d85-419f-a559-e014f1324d0f"
-					(reference "#PWR06")
+					(reference "#PWR03")
 					(unit 1)
 				)
 			)
@@ -9131,7 +9107,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "e2a632b7-7ce8-4b8c-8887-66a5167834ab")
-		(property "Reference" "#PWR04"
+		(property "Reference" "#PWR01"
 			(at 17.78 176.53 0)
 			(effects
 				(font
@@ -9193,7 +9169,7 @@
 			)
 			(project ""
 				(path "/eadab778-ea7c-433e-b0bd-0d0c238907e0/37dfacfc-f3f5-4a09-9e7e-ab0b8ea302f6/b2131341-7d85-419f-a559-e014f1324d0f"
-					(reference "#PWR04")
+					(reference "#PWR01")
 					(unit 1)
 				)
 			)
@@ -9208,7 +9184,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "e31f4040-dd48-44ca-a2b9-7832ad7a6203")
-		(property "Reference" "U3"
+		(property "Reference" "U2"
 			(at 182.88 101.6 0)
 			(effects
 				(font
@@ -9304,7 +9280,7 @@
 			)
 			(project ""
 				(path "/eadab778-ea7c-433e-b0bd-0d0c238907e0/37dfacfc-f3f5-4a09-9e7e-ab0b8ea302f6/b2131341-7d85-419f-a559-e014f1324d0f"
-					(reference "U3")
+					(reference "U2")
 					(unit 1)
 				)
 			)
@@ -9405,7 +9381,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "e4558ad8-ae41-4515-9e75-5b99fb7deb9e")
-		(property "Reference" "#PWR05"
+		(property "Reference" "#PWR02"
 			(at 17.78 184.15 0)
 			(effects
 				(font
@@ -9467,7 +9443,7 @@
 			)
 			(project ""
 				(path "/eadab778-ea7c-433e-b0bd-0d0c238907e0/37dfacfc-f3f5-4a09-9e7e-ab0b8ea302f6/b2131341-7d85-419f-a559-e014f1324d0f"
-					(reference "#PWR05")
+					(reference "#PWR02")
 					(unit 1)
 				)
 			)
@@ -9483,7 +9459,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "e49c5dcf-5892-4b94-bcf1-40baf0049673")
-		(property "Reference" "#PWR07"
+		(property "Reference" "#PWR04"
 			(at 39.37 176.53 0)
 			(effects
 				(font
@@ -9545,7 +9521,7 @@
 			)
 			(project "DIFF_MEAS"
 				(path "/eadab778-ea7c-433e-b0bd-0d0c238907e0/37dfacfc-f3f5-4a09-9e7e-ab0b8ea302f6/b2131341-7d85-419f-a559-e014f1324d0f"
-					(reference "#PWR07")
+					(reference "#PWR04")
 					(unit 1)
 				)
 			)
@@ -9722,7 +9698,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "f787905e-9ed2-42ed-bb86-732f2021e98a")
-		(property "Reference" "U3"
+		(property "Reference" "U2"
 			(at 251.46 58.42 0)
 			(effects
 				(font
@@ -9818,7 +9794,7 @@
 			)
 			(project ""
 				(path "/eadab778-ea7c-433e-b0bd-0d0c238907e0/37dfacfc-f3f5-4a09-9e7e-ab0b8ea302f6/b2131341-7d85-419f-a559-e014f1324d0f"
-					(reference "U3")
+					(reference "U2")
 					(unit 3)
 				)
 			)
@@ -10161,7 +10137,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "fc8e7721-b385-470b-9df8-d5dba3244db7")
-		(property "Reference" "#PWR017"
+		(property "Reference" "#PWR014"
 			(at 171.45 120.65 0)
 			(effects
 				(font
@@ -10224,7 +10200,7 @@
 			)
 			(project "DIFF_MEAS"
 				(path "/eadab778-ea7c-433e-b0bd-0d0c238907e0/37dfacfc-f3f5-4a09-9e7e-ab0b8ea302f6/b2131341-7d85-419f-a559-e014f1324d0f"
-					(reference "#PWR017")
+					(reference "#PWR014")
 					(unit 1)
 				)
 			)

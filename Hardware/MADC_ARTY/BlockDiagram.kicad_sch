@@ -310,6 +310,48 @@
 		)
 	)
 	(sheet
+		(at 198.12 55.88)
+		(size 46.99 30.48)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "67ff56d9-8cef-49c6-881e-9bbb78a73411")
+		(property "Sheetname" "ADC"
+			(at 198.12 55.1684 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "ADC.kicad_sch"
+			(at 198.12 86.9446 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "MADC_ARTY"
+				(path "/eadab778-ea7c-433e-b0bd-0d0c238907e0/37dfacfc-f3f5-4a09-9e7e-ab0b8ea302f6"
+					(page "7")
+				)
+			)
+		)
+	)
+	(sheet
 		(at 113.03 55.88)
 		(size 31.75 17.78)
 		(exclude_from_sim no)
@@ -467,16 +509,6 @@
 				(justify left top)
 			)
 		)
-		(pin "INPUT_CTR" input
-			(at 107.95 82.55 0)
-			(uuid "3e3de41c-51a4-4ae5-b4d5-90dba9738266")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
 		(pin "AIN_P" input
 			(at 76.2 59.69 180)
 			(uuid "55c2ade6-b093-43f9-b52f-ec4cea1dc100")
@@ -497,16 +529,6 @@
 				(justify left)
 			)
 		)
-		(pin "AUTO_ZERO_CTR" input
-			(at 107.95 78.74 0)
-			(uuid "c943c8da-ec12-472c-8243-7b458dc85549")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
 		(pin "AZ_OUT_P" output
 			(at 107.95 59.69 0)
 			(uuid "7f2952ea-b930-499c-b35f-5897f1d552c3")
@@ -520,6 +542,26 @@
 		(pin "AZ_OUT_N" output
 			(at 107.95 69.85 0)
 			(uuid "2205ce3a-c1b8-4c1e-8576-1e4c75409275")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "AZ2_CTR" input
+			(at 107.95 82.55 0)
+			(uuid "6ab09d7e-3ffb-4876-a95c-ae4375deb2d4")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "AZ1_CTR" input
+			(at 107.95 78.74 0)
+			(uuid "6aacf6ff-c70d-4b8a-b061-667147f19017")
 			(effects
 				(font
 					(size 1.27 1.27)
