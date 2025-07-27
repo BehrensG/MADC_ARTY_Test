@@ -435,6 +435,14 @@
     [
       "67ff56d9-8cef-49c6-881e-9bbb78a73411",
       "ADC"
+    ],
+    [
+      "27287108-2941-4c8d-891f-ed883f0b7bca",
+      "Voltage Reference"
+    ],
+    [
+      "5d4b0f99-b739-4f3c-9f1e-19d2c8b0b121",
+      "PMOD"
     ]
   ],
   "text_variables": {}
