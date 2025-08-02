@@ -151,16 +151,6 @@
 	)
 	(wire
 		(pts
-			(xy 93.98 74.93) (xy 128.27 74.93)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "517bafbf-6591-4d22-90f7-fc9b0d8aa7e2")
-	)
-	(wire
-		(pts
 			(xy 207.01 57.15) (xy 214.63 57.15)
 		)
 		(stroke
@@ -168,16 +158,6 @@
 			(type default)
 		)
 		(uuid "546c4eb8-434e-4420-8cbb-78b5fa18a3b4")
-	)
-	(wire
-		(pts
-			(xy 128.27 85.09) (xy 214.63 85.09)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "58bf2a77-9f37-4cb1-b798-4f7a5d45c189")
 	)
 	(wire
 		(pts
@@ -198,16 +178,6 @@
 			(type default)
 		)
 		(uuid "6447863c-e5c5-46a0-a861-e383f823fa4e")
-	)
-	(wire
-		(pts
-			(xy 128.27 74.93) (xy 128.27 85.09)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "66401a5d-2891-496a-9ced-60e0b584eeee")
 	)
 	(wire
 		(pts
@@ -538,26 +508,6 @@
 		(pin "GAIN_x100" output
 			(at 214.63 74.93 180)
 			(uuid "4066b075-4ffc-417f-9c1b-d483f4aa194b")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(pin "AZ2_CTR" output
-			(at 214.63 85.09 180)
-			(uuid "6a885eb7-ac79-4422-a189-efe38505d01f")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(pin "AZ1_CTR" output
-			(at 214.63 82.55 180)
-			(uuid "1f3f1de5-ffea-423e-abf0-6c119a4c6ed8")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -953,19 +903,9 @@
 				(justify right)
 			)
 		)
-		(pin "AZ2_CTR" input
-			(at 93.98 74.93 0)
-			(uuid "6ab09d7e-3ffb-4876-a95c-ae4375deb2d4")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(pin "AZ1_CTR" input
+		(pin "AZ_CTR" input
 			(at 93.98 72.39 0)
-			(uuid "6aacf6ff-c70d-4b8a-b061-667147f19017")
+			(uuid "0edf3b2c-195e-4c7f-9fe9-3d8be2899089")
 			(effects
 				(font
 					(size 1.27 1.27)

@@ -545,16 +545,20 @@
 		(uuid "2a552a5a-3438-4e1b-9810-8ccb6361292f")
 	)
 	(no_connect
-		(at 167.64 91.44)
-		(uuid "2b912b68-8d69-41e0-bfd2-653926eacbf9")
+		(at 113.03 86.36)
+		(uuid "46b77e62-5aa5-40e8-8b14-b5614d5a7aab")
 	)
 	(no_connect
-		(at 180.34 88.9)
-		(uuid "48f1c9ab-b3e2-48b0-aca7-5f0723814514")
+		(at 125.73 86.36)
+		(uuid "7c7510eb-1f65-43f9-83b3-bc464ef9d620")
 	)
 	(no_connect
 		(at 113.03 88.9)
 		(uuid "7d3fb754-a272-44cc-8214-58382602ccee")
+	)
+	(no_connect
+		(at 125.73 83.82)
+		(uuid "904cda1e-e504-4fe3-bd9d-dcca77e70b25")
 	)
 	(no_connect
 		(at 125.73 78.74)
@@ -588,6 +592,16 @@
 	)
 	(wire
 		(pts
+			(xy 166.37 91.44) (xy 167.64 91.44)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "273498b1-dcba-4f09-9228-2cc7cdb338de")
+	)
+	(wire
+		(pts
 			(xy 180.34 86.36) (xy 181.61 86.36)
 		)
 		(stroke
@@ -598,7 +612,7 @@
 	)
 	(wire
 		(pts
-			(xy 180.34 91.44) (xy 181.61 91.44)
+			(xy 180.34 88.9) (xy 181.61 88.9)
 		)
 		(stroke
 			(width 0)
@@ -618,23 +632,13 @@
 	)
 	(wire
 		(pts
-			(xy 125.73 83.82) (xy 127 83.82)
+			(xy 180.34 91.44) (xy 181.61 91.44)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "8d418bfa-624d-4594-92c9-16de4835ca52")
-	)
-	(wire
-		(pts
-			(xy 125.73 86.36) (xy 127 86.36)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "8debd2cb-b768-4456-9e2b-67f54648203c")
+		(uuid "991319a8-46b9-45fc-9fa4-735d0e407bcc")
 	)
 	(wire
 		(pts
@@ -666,27 +670,6 @@
 		)
 		(uuid "e5794a3f-9d0c-40d3-9b0f-73762d2bb8d1")
 	)
-	(wire
-		(pts
-			(xy 111.76 86.36) (xy 113.03 86.36)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "fd02f947-c895-4cbd-9e85-9d8468ffa6a9")
-	)
-	(hierarchical_label "AZ2_CTR"
-		(shape output)
-		(at 127 83.82 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "16d0d16c-7c99-44a9-b82b-d2027aa803be")
-	)
 	(hierarchical_label "FGPA_AD_ID"
 		(shape output)
 		(at 181.61 83.82 0)
@@ -709,7 +692,7 @@
 		)
 		(uuid "39c5a873-f17d-49e1-bb49-f685b4e51fef")
 	)
-	(hierarchical_label "AZ1_CTR"
+	(hierarchical_label "AZ_CTR"
 		(shape output)
 		(at 111.76 83.82 180)
 		(effects
@@ -722,7 +705,7 @@
 	)
 	(hierarchical_label "GAIN_x10"
 		(shape output)
-		(at 111.76 86.36 180)
+		(at 166.37 91.44 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -733,7 +716,7 @@
 	)
 	(hierarchical_label "GAIN_x100"
 		(shape output)
-		(at 127 86.36 0)
+		(at 181.61 91.44 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -766,7 +749,7 @@
 	)
 	(hierarchical_label "AD_COMP"
 		(shape input)
-		(at 181.61 91.44 0)
+		(at 181.61 88.9 0)
 		(effects
 			(font
 				(size 1.27 1.27)
