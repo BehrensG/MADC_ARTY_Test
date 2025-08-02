@@ -1,7 +1,7 @@
 (footprint "S16N-PC"
-	(version 20241229)
+	(version 20240108)
 	(generator "pcbnew")
-	(generator_version "9.0")
+	(generator_version "8.0")
 	(layer "F.Cu")
 	(property "Reference" "REF**"
 		(at 0 -7.2 0)
@@ -20,6 +20,19 @@
 		(unlocked yes)
 		(layer "F.Fab")
 		(uuid "3af5f52c-dd33-4f42-93a4-cdba372d1a77")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Footprint" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "1a8324f0-72bf-4a7d-b437-4668bb4d2bbd")
 		(effects
 			(font
 				(size 1 1)
@@ -121,7 +134,7 @@
 			(width 0.05)
 			(type default)
 		)
-		(fill no)
+		(fill none)
 		(layer "F.CrtYd")
 		(uuid "6ad460bc-3f47-416c-b5a7-5c770403c0c8")
 	)
@@ -177,7 +190,6 @@
 		(remove_unused_layers no)
 		(uuid "7e4d9d9d-5115-45de-96a6-25c7b27f742d")
 	)
-	(embedded_fonts no)
 	(model "${KIPRJMOD}/lib/3d/FCR7350.stp"
 		(offset
 			(xyz 13.5 0 6)
