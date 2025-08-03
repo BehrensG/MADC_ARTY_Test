@@ -2373,7 +2373,25 @@
 				)
 			)
 			(pin power_in line
-				(at 0 -7.62 90)
+				(at -1.27 -7.62 90)
+				(length 2.54)
+				(name "EPAD"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "7"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin power_in line
+				(at 1.27 -7.62 90)
 				(length 2.54)
 				(name "GND"
 					(effects
@@ -2383,25 +2401,6 @@
 					)
 				)
 				(number "3"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin power_in line
-				(at 0 -7.62 90)
-				(length 2.54)
-				(hide yes)
-				(name "EPAD"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "7"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -2759,16 +2758,16 @@
 				)
 			)
 			(pin power_in line
-				(at -10.16 -2.54 0)
+				(at -10.16 0 0)
 				(length 2.54)
-				(name "VIN"
+				(name "EPAD"
 					(effects
 						(font
 							(size 1.27 1.27)
 						)
 					)
 				)
-				(number "6"
+				(number "7"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -2779,15 +2778,14 @@
 			(pin power_in line
 				(at -10.16 -2.54 0)
 				(length 2.54)
-				(hide yes)
-				(name "EPAD"
+				(name "VIN"
 					(effects
 						(font
 							(size 1.27 1.27)
 						)
 					)
 				)
-				(number "7"
+				(number "6"
 					(effects
 						(font
 							(size 1.27 1.27)

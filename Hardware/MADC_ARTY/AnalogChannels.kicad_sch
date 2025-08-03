@@ -3846,7 +3846,7 @@
 		(instances
 			(project "MADC_ARTY"
 				(path "/eadab778-ea7c-433e-b0bd-0d0c238907e0/37dfacfc-f3f5-4a09-9e7e-ab0b8ea302f6/3691a135-d759-4453-b099-98c35d021fc0"
-					(reference "#PWR0156")
+					(reference "#PWR0162")
 					(unit 1)
 				)
 				(path "/eadab778-ea7c-433e-b0bd-0d0c238907e0/37dfacfc-f3f5-4a09-9e7e-ab0b8ea302f6/b2131341-7d85-419f-a559-e014f1324d0f"
@@ -3937,7 +3937,7 @@
 		(instances
 			(project "MADC_ARTY"
 				(path "/eadab778-ea7c-433e-b0bd-0d0c238907e0/37dfacfc-f3f5-4a09-9e7e-ab0b8ea302f6/3691a135-d759-4453-b099-98c35d021fc0"
-					(reference "Q7")
+					(reference "Q8")
 					(unit 1)
 				)
 				(path "/eadab778-ea7c-433e-b0bd-0d0c238907e0/37dfacfc-f3f5-4a09-9e7e-ab0b8ea302f6/b2131341-7d85-419f-a559-e014f1324d0f"
@@ -4011,7 +4011,7 @@
 		(instances
 			(project "MADC_ARTY"
 				(path "/eadab778-ea7c-433e-b0bd-0d0c238907e0/37dfacfc-f3f5-4a09-9e7e-ab0b8ea302f6/3691a135-d759-4453-b099-98c35d021fc0"
-					(reference "R66")
+					(reference "R70")
 					(unit 1)
 				)
 				(path "/eadab778-ea7c-433e-b0bd-0d0c238907e0/37dfacfc-f3f5-4a09-9e7e-ab0b8ea302f6/b2131341-7d85-419f-a559-e014f1324d0f"
@@ -4088,7 +4088,7 @@
 		(instances
 			(project "MADC_ARTY"
 				(path "/eadab778-ea7c-433e-b0bd-0d0c238907e0/37dfacfc-f3f5-4a09-9e7e-ab0b8ea302f6/3691a135-d759-4453-b099-98c35d021fc0"
-					(reference "Q8")
+					(reference "Q9")
 					(unit 1)
 				)
 				(path "/eadab778-ea7c-433e-b0bd-0d0c238907e0/37dfacfc-f3f5-4a09-9e7e-ab0b8ea302f6/b2131341-7d85-419f-a559-e014f1324d0f"
@@ -4108,7 +4108,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "3e022bd2-4c37-4830-ae35-5de1fdaf640f")
-		(property "Reference" "TP23"
+		(property "Reference" "TP5"
 			(at 227.33 50.0379 0)
 			(effects
 				(font
@@ -4126,7 +4126,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "TestPoint:TestPoint_Pad_D2.0mm"
 			(at 229.87 54.61 0)
 			(effects
 				(font
@@ -4159,11 +4159,11 @@
 		(instances
 			(project "MADC_ARTY"
 				(path "/eadab778-ea7c-433e-b0bd-0d0c238907e0/37dfacfc-f3f5-4a09-9e7e-ab0b8ea302f6/3691a135-d759-4453-b099-98c35d021fc0"
-					(reference "TP24")
+					(reference "TP37")
 					(unit 1)
 				)
 				(path "/eadab778-ea7c-433e-b0bd-0d0c238907e0/37dfacfc-f3f5-4a09-9e7e-ab0b8ea302f6/b2131341-7d85-419f-a559-e014f1324d0f"
-					(reference "TP23")
+					(reference "TP5")
 					(unit 1)
 				)
 			)
@@ -4341,7 +4341,7 @@
 		(instances
 			(project "MADC_ARTY"
 				(path "/eadab778-ea7c-433e-b0bd-0d0c238907e0/37dfacfc-f3f5-4a09-9e7e-ab0b8ea302f6/3691a135-d759-4453-b099-98c35d021fc0"
-					(reference "R74")
+					(reference "R78")
 					(unit 1)
 				)
 				(path "/eadab778-ea7c-433e-b0bd-0d0c238907e0/37dfacfc-f3f5-4a09-9e7e-ab0b8ea302f6/b2131341-7d85-419f-a559-e014f1324d0f"
@@ -4485,7 +4485,7 @@
 		(instances
 			(project "MADC_ARTY"
 				(path "/eadab778-ea7c-433e-b0bd-0d0c238907e0/37dfacfc-f3f5-4a09-9e7e-ab0b8ea302f6/3691a135-d759-4453-b099-98c35d021fc0"
-					(reference "#PWR0155")
+					(reference "#PWR0161")
 					(unit 1)
 				)
 				(path "/eadab778-ea7c-433e-b0bd-0d0c238907e0/37dfacfc-f3f5-4a09-9e7e-ab0b8ea302f6/b2131341-7d85-419f-a559-e014f1324d0f"
@@ -4555,7 +4555,7 @@
 		(instances
 			(project "MADC_ARTY"
 				(path "/eadab778-ea7c-433e-b0bd-0d0c238907e0/37dfacfc-f3f5-4a09-9e7e-ab0b8ea302f6/3691a135-d759-4453-b099-98c35d021fc0"
-					(reference "#PWR0154")
+					(reference "#PWR0160")
 					(unit 1)
 				)
 				(path "/eadab778-ea7c-433e-b0bd-0d0c238907e0/37dfacfc-f3f5-4a09-9e7e-ab0b8ea302f6/b2131341-7d85-419f-a559-e014f1324d0f"
@@ -4627,7 +4627,7 @@
 		(instances
 			(project "MADC_ARTY"
 				(path "/eadab778-ea7c-433e-b0bd-0d0c238907e0/37dfacfc-f3f5-4a09-9e7e-ab0b8ea302f6/3691a135-d759-4453-b099-98c35d021fc0"
-					(reference "R73")
+					(reference "R77")
 					(unit 1)
 				)
 				(path "/eadab778-ea7c-433e-b0bd-0d0c238907e0/37dfacfc-f3f5-4a09-9e7e-ab0b8ea302f6/b2131341-7d85-419f-a559-e014f1324d0f"
@@ -4647,7 +4647,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "7024d2e1-8a0e-435e-938f-e2749161d6b0")
-		(property "Reference" "TP27"
+		(property "Reference" "TP4"
 			(at 161.29 126.9999 90)
 			(effects
 				(font
@@ -4665,7 +4665,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "TestPoint:TestPoint_Pad_D2.0mm"
 			(at 156.21 133.35 0)
 			(effects
 				(font
@@ -4698,11 +4698,11 @@
 		(instances
 			(project "MADC_ARTY"
 				(path "/eadab778-ea7c-433e-b0bd-0d0c238907e0/37dfacfc-f3f5-4a09-9e7e-ab0b8ea302f6/3691a135-d759-4453-b099-98c35d021fc0"
-					(reference "TP28")
+					(reference "TP36")
 					(unit 1)
 				)
 				(path "/eadab778-ea7c-433e-b0bd-0d0c238907e0/37dfacfc-f3f5-4a09-9e7e-ab0b8ea302f6/b2131341-7d85-419f-a559-e014f1324d0f"
-					(reference "TP27")
+					(reference "TP4")
 					(unit 1)
 				)
 			)
@@ -4718,7 +4718,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "7280e8df-4fe8-4e48-9dba-b6752d614c2b")
-		(property "Reference" "TP21"
+		(property "Reference" "TP3"
 			(at 127.508 49.53 90)
 			(effects
 				(font
@@ -4734,7 +4734,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "TestPoint:TestPoint_Pad_D2.0mm"
 			(at 130.81 49.53 0)
 			(effects
 				(font
@@ -4767,11 +4767,11 @@
 		(instances
 			(project "MADC_ARTY"
 				(path "/eadab778-ea7c-433e-b0bd-0d0c238907e0/37dfacfc-f3f5-4a09-9e7e-ab0b8ea302f6/3691a135-d759-4453-b099-98c35d021fc0"
-					(reference "TP22")
+					(reference "TP35")
 					(unit 1)
 				)
 				(path "/eadab778-ea7c-433e-b0bd-0d0c238907e0/37dfacfc-f3f5-4a09-9e7e-ab0b8ea302f6/b2131341-7d85-419f-a559-e014f1324d0f"
-					(reference "TP21")
+					(reference "TP3")
 					(unit 1)
 				)
 			)
@@ -4929,7 +4929,7 @@
 		(instances
 			(project "MADC_ARTY"
 				(path "/eadab778-ea7c-433e-b0bd-0d0c238907e0/37dfacfc-f3f5-4a09-9e7e-ab0b8ea302f6/3691a135-d759-4453-b099-98c35d021fc0"
-					(reference "#PWR0161")
+					(reference "#PWR0167")
 					(unit 1)
 				)
 				(path "/eadab778-ea7c-433e-b0bd-0d0c238907e0/37dfacfc-f3f5-4a09-9e7e-ab0b8ea302f6/b2131341-7d85-419f-a559-e014f1324d0f"
@@ -5021,7 +5021,7 @@
 		(instances
 			(project "MADC_ARTY"
 				(path "/eadab778-ea7c-433e-b0bd-0d0c238907e0/37dfacfc-f3f5-4a09-9e7e-ab0b8ea302f6/3691a135-d759-4453-b099-98c35d021fc0"
-					(reference "Q7")
+					(reference "Q8")
 					(unit 2)
 				)
 				(path "/eadab778-ea7c-433e-b0bd-0d0c238907e0/37dfacfc-f3f5-4a09-9e7e-ab0b8ea302f6/b2131341-7d85-419f-a559-e014f1324d0f"
@@ -5093,7 +5093,7 @@
 		(instances
 			(project "MADC_ARTY"
 				(path "/eadab778-ea7c-433e-b0bd-0d0c238907e0/37dfacfc-f3f5-4a09-9e7e-ab0b8ea302f6/3691a135-d759-4453-b099-98c35d021fc0"
-					(reference "R71")
+					(reference "R75")
 					(unit 1)
 				)
 				(path "/eadab778-ea7c-433e-b0bd-0d0c238907e0/37dfacfc-f3f5-4a09-9e7e-ab0b8ea302f6/b2131341-7d85-419f-a559-e014f1324d0f"
@@ -5248,7 +5248,7 @@
 		(instances
 			(project "MADC_ARTY"
 				(path "/eadab778-ea7c-433e-b0bd-0d0c238907e0/37dfacfc-f3f5-4a09-9e7e-ab0b8ea302f6/3691a135-d759-4453-b099-98c35d021fc0"
-					(reference "Q10")
+					(reference "Q11")
 					(unit 1)
 				)
 				(path "/eadab778-ea7c-433e-b0bd-0d0c238907e0/37dfacfc-f3f5-4a09-9e7e-ab0b8ea302f6/b2131341-7d85-419f-a559-e014f1324d0f"
@@ -5428,7 +5428,7 @@
 		(instances
 			(project "MADC_ARTY"
 				(path "/eadab778-ea7c-433e-b0bd-0d0c238907e0/37dfacfc-f3f5-4a09-9e7e-ab0b8ea302f6/3691a135-d759-4453-b099-98c35d021fc0"
-					(reference "#PWR0157")
+					(reference "#PWR0163")
 					(unit 1)
 				)
 				(path "/eadab778-ea7c-433e-b0bd-0d0c238907e0/37dfacfc-f3f5-4a09-9e7e-ab0b8ea302f6/b2131341-7d85-419f-a559-e014f1324d0f"
@@ -5500,7 +5500,7 @@
 		(instances
 			(project "MADC_ARTY"
 				(path "/eadab778-ea7c-433e-b0bd-0d0c238907e0/37dfacfc-f3f5-4a09-9e7e-ab0b8ea302f6/3691a135-d759-4453-b099-98c35d021fc0"
-					(reference "R65")
+					(reference "R69")
 					(unit 1)
 				)
 				(path "/eadab778-ea7c-433e-b0bd-0d0c238907e0/37dfacfc-f3f5-4a09-9e7e-ab0b8ea302f6/b2131341-7d85-419f-a559-e014f1324d0f"
@@ -5570,7 +5570,7 @@
 		(instances
 			(project "MADC_ARTY"
 				(path "/eadab778-ea7c-433e-b0bd-0d0c238907e0/37dfacfc-f3f5-4a09-9e7e-ab0b8ea302f6/3691a135-d759-4453-b099-98c35d021fc0"
-					(reference "#PWR0158")
+					(reference "#PWR0164")
 					(unit 1)
 				)
 				(path "/eadab778-ea7c-433e-b0bd-0d0c238907e0/37dfacfc-f3f5-4a09-9e7e-ab0b8ea302f6/b2131341-7d85-419f-a559-e014f1324d0f"
@@ -5738,7 +5738,7 @@
 		(instances
 			(project "MADC_ARTY"
 				(path "/eadab778-ea7c-433e-b0bd-0d0c238907e0/37dfacfc-f3f5-4a09-9e7e-ab0b8ea302f6/3691a135-d759-4453-b099-98c35d021fc0"
-					(reference "Q11")
+					(reference "Q12")
 					(unit 1)
 				)
 				(path "/eadab778-ea7c-433e-b0bd-0d0c238907e0/37dfacfc-f3f5-4a09-9e7e-ab0b8ea302f6/b2131341-7d85-419f-a559-e014f1324d0f"
@@ -5758,7 +5758,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "a9265674-111e-47ed-bc02-5255651756c5")
-		(property "Reference" "TP25"
+		(property "Reference" "TP1"
 			(at 100.33 42.4179 0)
 			(effects
 				(font
@@ -5776,7 +5776,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "TestPoint:TestPoint_Pad_D2.0mm"
 			(at 102.87 46.99 0)
 			(effects
 				(font
@@ -5809,11 +5809,11 @@
 		(instances
 			(project "MADC_ARTY"
 				(path "/eadab778-ea7c-433e-b0bd-0d0c238907e0/37dfacfc-f3f5-4a09-9e7e-ab0b8ea302f6/3691a135-d759-4453-b099-98c35d021fc0"
-					(reference "TP26")
+					(reference "TP33")
 					(unit 1)
 				)
 				(path "/eadab778-ea7c-433e-b0bd-0d0c238907e0/37dfacfc-f3f5-4a09-9e7e-ab0b8ea302f6/b2131341-7d85-419f-a559-e014f1324d0f"
-					(reference "TP25")
+					(reference "TP1")
 					(unit 1)
 				)
 			)
@@ -5879,7 +5879,7 @@
 		(instances
 			(project "MADC_ARTY"
 				(path "/eadab778-ea7c-433e-b0bd-0d0c238907e0/37dfacfc-f3f5-4a09-9e7e-ab0b8ea302f6/3691a135-d759-4453-b099-98c35d021fc0"
-					(reference "#PWR0151")
+					(reference "#PWR0157")
 					(unit 1)
 				)
 				(path "/eadab778-ea7c-433e-b0bd-0d0c238907e0/37dfacfc-f3f5-4a09-9e7e-ab0b8ea302f6/b2131341-7d85-419f-a559-e014f1324d0f"
@@ -6060,7 +6060,7 @@
 		(instances
 			(project "MADC_ARTY"
 				(path "/eadab778-ea7c-433e-b0bd-0d0c238907e0/37dfacfc-f3f5-4a09-9e7e-ab0b8ea302f6/3691a135-d759-4453-b099-98c35d021fc0"
-					(reference "R67")
+					(reference "R71")
 					(unit 1)
 				)
 				(path "/eadab778-ea7c-433e-b0bd-0d0c238907e0/37dfacfc-f3f5-4a09-9e7e-ab0b8ea302f6/b2131341-7d85-419f-a559-e014f1324d0f"
@@ -6080,7 +6080,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "bddf26bb-06d4-40d7-bcca-4bd7b1cdc550")
-		(property "Reference" "TP19"
+		(property "Reference" "TP2"
 			(at 127.508 36.83 90)
 			(effects
 				(font
@@ -6096,7 +6096,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "TestPoint:TestPoint_Pad_D2.0mm"
 			(at 130.81 36.83 0)
 			(effects
 				(font
@@ -6129,11 +6129,11 @@
 		(instances
 			(project "MADC_ARTY"
 				(path "/eadab778-ea7c-433e-b0bd-0d0c238907e0/37dfacfc-f3f5-4a09-9e7e-ab0b8ea302f6/3691a135-d759-4453-b099-98c35d021fc0"
-					(reference "TP20")
+					(reference "TP34")
 					(unit 1)
 				)
 				(path "/eadab778-ea7c-433e-b0bd-0d0c238907e0/37dfacfc-f3f5-4a09-9e7e-ab0b8ea302f6/b2131341-7d85-419f-a559-e014f1324d0f"
-					(reference "TP19")
+					(reference "TP2")
 					(unit 1)
 				)
 			)
@@ -6199,7 +6199,7 @@
 		(instances
 			(project "MADC_ARTY"
 				(path "/eadab778-ea7c-433e-b0bd-0d0c238907e0/37dfacfc-f3f5-4a09-9e7e-ab0b8ea302f6/3691a135-d759-4453-b099-98c35d021fc0"
-					(reference "#PWR0152")
+					(reference "#PWR0158")
 					(unit 1)
 				)
 				(path "/eadab778-ea7c-433e-b0bd-0d0c238907e0/37dfacfc-f3f5-4a09-9e7e-ab0b8ea302f6/b2131341-7d85-419f-a559-e014f1324d0f"
@@ -6453,7 +6453,7 @@
 		(instances
 			(project "MADC_ARTY"
 				(path "/eadab778-ea7c-433e-b0bd-0d0c238907e0/37dfacfc-f3f5-4a09-9e7e-ab0b8ea302f6/3691a135-d759-4453-b099-98c35d021fc0"
-					(reference "R68")
+					(reference "R72")
 					(unit 1)
 				)
 				(path "/eadab778-ea7c-433e-b0bd-0d0c238907e0/37dfacfc-f3f5-4a09-9e7e-ab0b8ea302f6/b2131341-7d85-419f-a559-e014f1324d0f"
@@ -6545,7 +6545,7 @@
 		(instances
 			(project "MADC_ARTY"
 				(path "/eadab778-ea7c-433e-b0bd-0d0c238907e0/37dfacfc-f3f5-4a09-9e7e-ab0b8ea302f6/3691a135-d759-4453-b099-98c35d021fc0"
-					(reference "Q7")
+					(reference "Q8")
 					(unit 3)
 				)
 				(path "/eadab778-ea7c-433e-b0bd-0d0c238907e0/37dfacfc-f3f5-4a09-9e7e-ab0b8ea302f6/b2131341-7d85-419f-a559-e014f1324d0f"
@@ -6623,7 +6623,7 @@
 		(instances
 			(project "MADC_ARTY"
 				(path "/eadab778-ea7c-433e-b0bd-0d0c238907e0/37dfacfc-f3f5-4a09-9e7e-ab0b8ea302f6/3691a135-d759-4453-b099-98c35d021fc0"
-					(reference "Q12")
+					(reference "Q13")
 					(unit 1)
 				)
 				(path "/eadab778-ea7c-433e-b0bd-0d0c238907e0/37dfacfc-f3f5-4a09-9e7e-ab0b8ea302f6/b2131341-7d85-419f-a559-e014f1324d0f"
@@ -6693,7 +6693,7 @@
 		(instances
 			(project "MADC_ARTY"
 				(path "/eadab778-ea7c-433e-b0bd-0d0c238907e0/37dfacfc-f3f5-4a09-9e7e-ab0b8ea302f6/3691a135-d759-4453-b099-98c35d021fc0"
-					(reference "#PWR0160")
+					(reference "#PWR0166")
 					(unit 1)
 				)
 				(path "/eadab778-ea7c-433e-b0bd-0d0c238907e0/37dfacfc-f3f5-4a09-9e7e-ab0b8ea302f6/b2131341-7d85-419f-a559-e014f1324d0f"
@@ -6764,7 +6764,7 @@
 		(instances
 			(project "MADC_ARTY"
 				(path "/eadab778-ea7c-433e-b0bd-0d0c238907e0/37dfacfc-f3f5-4a09-9e7e-ab0b8ea302f6/3691a135-d759-4453-b099-98c35d021fc0"
-					(reference "#PWR0159")
+					(reference "#PWR0165")
 					(unit 1)
 				)
 				(path "/eadab778-ea7c-433e-b0bd-0d0c238907e0/37dfacfc-f3f5-4a09-9e7e-ab0b8ea302f6/b2131341-7d85-419f-a559-e014f1324d0f"
@@ -6837,7 +6837,7 @@
 			(uuid "2346e762-c52b-46c6-aaf5-0c4e4dd86068")
 		)
 		(pin "8"
-			(uuid "e0b5ea21-7774-49a1-965c-dc2a51b37060")
+			(uuid "e0b5ea21-7774-49a1-965c-dc2a51b37061")
 		)
 		(pin "3"
 			(uuid "e29c1b22-ee3a-4878-8e79-e3d71bfe797b")
@@ -6849,7 +6849,7 @@
 			(uuid "4ba5bd86-b6cd-4f04-9a36-327b2cd3543b")
 		)
 		(pin "4"
-			(uuid "bbf5e21d-fb62-4e6f-ba73-14c393f4373d")
+			(uuid "bbf5e21d-fb62-4e6f-ba73-14c393f4373e")
 		)
 		(instances
 			(project "MADC_ARTY"
@@ -7002,7 +7002,7 @@
 		(instances
 			(project "MADC_ARTY"
 				(path "/eadab778-ea7c-433e-b0bd-0d0c238907e0/37dfacfc-f3f5-4a09-9e7e-ab0b8ea302f6/3691a135-d759-4453-b099-98c35d021fc0"
-					(reference "R72")
+					(reference "R76")
 					(unit 1)
 				)
 				(path "/eadab778-ea7c-433e-b0bd-0d0c238907e0/37dfacfc-f3f5-4a09-9e7e-ab0b8ea302f6/b2131341-7d85-419f-a559-e014f1324d0f"
@@ -7072,7 +7072,7 @@
 		(instances
 			(project "MADC_ARTY"
 				(path "/eadab778-ea7c-433e-b0bd-0d0c238907e0/37dfacfc-f3f5-4a09-9e7e-ab0b8ea302f6/3691a135-d759-4453-b099-98c35d021fc0"
-					(reference "#PWR0162")
+					(reference "#PWR0168")
 					(unit 1)
 				)
 				(path "/eadab778-ea7c-433e-b0bd-0d0c238907e0/37dfacfc-f3f5-4a09-9e7e-ab0b8ea302f6/b2131341-7d85-419f-a559-e014f1324d0f"
@@ -7142,7 +7142,7 @@
 		(instances
 			(project "MADC_ARTY"
 				(path "/eadab778-ea7c-433e-b0bd-0d0c238907e0/37dfacfc-f3f5-4a09-9e7e-ab0b8ea302f6/3691a135-d759-4453-b099-98c35d021fc0"
-					(reference "#PWR0153")
+					(reference "#PWR0159")
 					(unit 1)
 				)
 				(path "/eadab778-ea7c-433e-b0bd-0d0c238907e0/37dfacfc-f3f5-4a09-9e7e-ab0b8ea302f6/b2131341-7d85-419f-a559-e014f1324d0f"
@@ -7219,7 +7219,7 @@
 		(instances
 			(project "MADC_ARTY"
 				(path "/eadab778-ea7c-433e-b0bd-0d0c238907e0/37dfacfc-f3f5-4a09-9e7e-ab0b8ea302f6/3691a135-d759-4453-b099-98c35d021fc0"
-					(reference "Q9")
+					(reference "Q10")
 					(unit 1)
 				)
 				(path "/eadab778-ea7c-433e-b0bd-0d0c238907e0/37dfacfc-f3f5-4a09-9e7e-ab0b8ea302f6/b2131341-7d85-419f-a559-e014f1324d0f"
@@ -7291,7 +7291,7 @@
 		(instances
 			(project "MADC_ARTY"
 				(path "/eadab778-ea7c-433e-b0bd-0d0c238907e0/37dfacfc-f3f5-4a09-9e7e-ab0b8ea302f6/3691a135-d759-4453-b099-98c35d021fc0"
-					(reference "R69")
+					(reference "R73")
 					(unit 1)
 				)
 				(path "/eadab778-ea7c-433e-b0bd-0d0c238907e0/37dfacfc-f3f5-4a09-9e7e-ab0b8ea302f6/b2131341-7d85-419f-a559-e014f1324d0f"
@@ -7437,7 +7437,7 @@
 		(instances
 			(project "MADC_ARTY"
 				(path "/eadab778-ea7c-433e-b0bd-0d0c238907e0/37dfacfc-f3f5-4a09-9e7e-ab0b8ea302f6/3691a135-d759-4453-b099-98c35d021fc0"
-					(reference "R70")
+					(reference "R74")
 					(unit 1)
 				)
 				(path "/eadab778-ea7c-433e-b0bd-0d0c238907e0/37dfacfc-f3f5-4a09-9e7e-ab0b8ea302f6/b2131341-7d85-419f-a559-e014f1324d0f"
