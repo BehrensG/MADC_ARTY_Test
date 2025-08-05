@@ -1013,12 +1013,12 @@
 	)
 	(hierarchical_label "FGPA_AD_ID"
 		(shape output)
-		(at 234.95 83.82 0)
+		(at 158.75 83.82 180)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left)
+			(justify right)
 		)
 		(uuid "1dd080dc-52ce-4299-b920-9dd9f98365a3")
 	)
@@ -1090,7 +1090,7 @@
 	)
 	(hierarchical_label "AD_COMP"
 		(shape input)
-		(at 234.95 88.9 0)
+		(at 234.95 83.82 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1101,12 +1101,12 @@
 	)
 	(hierarchical_label "FGPA_AD_IIN"
 		(shape output)
-		(at 158.75 83.82 180)
+		(at 234.95 88.9 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify right)
+			(justify left)
 		)
 		(uuid "e53bd738-f9e9-47ed-98c1-b8206741331e")
 	)
