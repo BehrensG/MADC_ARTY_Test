@@ -2760,7 +2760,7 @@
 			(pin power_in line
 				(at -10.16 0 0)
 				(length 2.54)
-				(name "EP"
+				(name "EPAD"
 					(effects
 						(font
 							(size 1.27 1.27)

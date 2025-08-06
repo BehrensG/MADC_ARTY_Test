@@ -1120,7 +1120,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "06abe63a-b080-468b-9c4e-d9342034b020")
-		(property "Reference" "TP29"
+		(property "Reference" "TP23"
 			(at 213.36 75.4379 0)
 			(effects
 				(font
@@ -1171,7 +1171,7 @@
 		(instances
 			(project "MADC_ARTY"
 				(path "/eadab778-ea7c-433e-b0bd-0d0c238907e0/37dfacfc-f3f5-4a09-9e7e-ab0b8ea302f6/5d4b0f99-b739-4f3c-9f1e-19d2c8b0b121"
-					(reference "TP29")
+					(reference "TP23")
 					(unit 1)
 				)
 			)
@@ -1188,7 +1188,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "094ba5a1-6c63-4faf-8dc1-e84efe0c7ef7")
-		(property "Reference" "TP30"
+		(property "Reference" "TP24"
 			(at 213.36 99.8221 0)
 			(effects
 				(font
@@ -1239,7 +1239,7 @@
 		(instances
 			(project "MADC_ARTY"
 				(path "/eadab778-ea7c-433e-b0bd-0d0c238907e0/37dfacfc-f3f5-4a09-9e7e-ab0b8ea302f6/5d4b0f99-b739-4f3c-9f1e-19d2c8b0b121"
-					(reference "TP30")
+					(reference "TP24")
 					(unit 1)
 				)
 			)
@@ -1255,7 +1255,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "0956a6bb-76eb-4a13-9a53-0583ee85bbeb")
-		(property "Reference" "TP24"
+		(property "Reference" "TP18"
 			(at 93.98 77.9779 0)
 			(effects
 				(font
@@ -1306,7 +1306,7 @@
 		(instances
 			(project "MADC_ARTY"
 				(path "/eadab778-ea7c-433e-b0bd-0d0c238907e0/37dfacfc-f3f5-4a09-9e7e-ab0b8ea302f6/5d4b0f99-b739-4f3c-9f1e-19d2c8b0b121"
-					(reference "TP24")
+					(reference "TP18")
 					(unit 1)
 				)
 			)
@@ -1323,7 +1323,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "163e5e5f-8a2b-46b0-a4b3-e70cc86eaaaa")
-		(property "Reference" "#PWR0139"
+		(property "Reference" "#PWR0103"
 			(at 208.28 81.28 0)
 			(effects
 				(font
@@ -1373,7 +1373,7 @@
 		(instances
 			(project "MADC_ARTY"
 				(path "/eadab778-ea7c-433e-b0bd-0d0c238907e0/37dfacfc-f3f5-4a09-9e7e-ab0b8ea302f6/5d4b0f99-b739-4f3c-9f1e-19d2c8b0b121"
-					(reference "#PWR0139")
+					(reference "#PWR0103")
 					(unit 1)
 				)
 			)
@@ -1389,7 +1389,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "1a95c852-0b66-4ed4-bcf2-342ca42c4b44")
-		(property "Reference" "TP27"
+		(property "Reference" "TP21"
 			(at 176.53 75.4379 0)
 			(effects
 				(font
@@ -1440,7 +1440,7 @@
 		(instances
 			(project "MADC_ARTY"
 				(path "/eadab778-ea7c-433e-b0bd-0d0c238907e0/37dfacfc-f3f5-4a09-9e7e-ab0b8ea302f6/5d4b0f99-b739-4f3c-9f1e-19d2c8b0b121"
-					(reference "TP27")
+					(reference "TP21")
 					(unit 1)
 				)
 			)
@@ -1456,7 +1456,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "1b1578f9-1827-47c4-8725-551425ea371b")
-		(property "Reference" "TP25"
+		(property "Reference" "TP19"
 			(at 163.83 75.4379 0)
 			(effects
 				(font
@@ -1507,7 +1507,7 @@
 		(instances
 			(project "MADC_ARTY"
 				(path "/eadab778-ea7c-433e-b0bd-0d0c238907e0/37dfacfc-f3f5-4a09-9e7e-ab0b8ea302f6/5d4b0f99-b739-4f3c-9f1e-19d2c8b0b121"
-					(reference "TP25")
+					(reference "TP19")
 					(unit 1)
 				)
 			)
@@ -1524,7 +1524,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "21d530c4-ad8d-4495-8823-e5a4bb3b0ee7")
-		(property "Reference" "#PWR0136"
+		(property "Reference" "#PWR0100"
 			(at 106.68 81.28 0)
 			(effects
 				(font
@@ -1574,7 +1574,7 @@
 		(instances
 			(project "MADC_ARTY"
 				(path "/eadab778-ea7c-433e-b0bd-0d0c238907e0/37dfacfc-f3f5-4a09-9e7e-ab0b8ea302f6/5d4b0f99-b739-4f3c-9f1e-19d2c8b0b121"
-					(reference "#PWR0136")
+					(reference "#PWR0100")
 					(unit 1)
 				)
 			)
@@ -1591,7 +1591,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "2a9174b9-a60f-4546-832c-307e8c5eb6b1")
-		(property "Reference" "#PWR0138"
+		(property "Reference" "#PWR0102"
 			(at 182.88 81.28 0)
 			(effects
 				(font
@@ -1641,7 +1641,7 @@
 		(instances
 			(project "MADC_ARTY"
 				(path "/eadab778-ea7c-433e-b0bd-0d0c238907e0/37dfacfc-f3f5-4a09-9e7e-ab0b8ea302f6/5d4b0f99-b739-4f3c-9f1e-19d2c8b0b121"
-					(reference "#PWR0138")
+					(reference "#PWR0102")
 					(unit 1)
 				)
 			)
@@ -1755,7 +1755,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "35c3c9bf-410c-481a-b474-6ed31420abf7")
-		(property "Reference" "#PWR0137"
+		(property "Reference" "#PWR0101"
 			(at 132.08 81.28 0)
 			(effects
 				(font
@@ -1805,7 +1805,7 @@
 		(instances
 			(project "MADC_ARTY"
 				(path "/eadab778-ea7c-433e-b0bd-0d0c238907e0/37dfacfc-f3f5-4a09-9e7e-ab0b8ea302f6/5d4b0f99-b739-4f3c-9f1e-19d2c8b0b121"
-					(reference "#PWR0137")
+					(reference "#PWR0101")
 					(unit 1)
 				)
 			)
@@ -1821,7 +1821,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "522f796a-4880-46e1-a1ad-cc531e45a2c5")
-		(property "Reference" "TP26"
+		(property "Reference" "TP20"
 			(at 163.83 97.2819 0)
 			(effects
 				(font
@@ -1872,7 +1872,7 @@
 		(instances
 			(project "MADC_ARTY"
 				(path "/eadab778-ea7c-433e-b0bd-0d0c238907e0/37dfacfc-f3f5-4a09-9e7e-ab0b8ea302f6/5d4b0f99-b739-4f3c-9f1e-19d2c8b0b121"
-					(reference "TP26")
+					(reference "TP20")
 					(unit 1)
 				)
 			)
@@ -1888,7 +1888,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "8e59eab6-298e-434a-a163-f91f659d7067")
-		(property "Reference" "TP31"
+		(property "Reference" "TP25"
 			(at 226.06 75.4379 0)
 			(effects
 				(font
@@ -1939,7 +1939,7 @@
 		(instances
 			(project "MADC_ARTY"
 				(path "/eadab778-ea7c-433e-b0bd-0d0c238907e0/37dfacfc-f3f5-4a09-9e7e-ab0b8ea302f6/5d4b0f99-b739-4f3c-9f1e-19d2c8b0b121"
-					(reference "TP31")
+					(reference "TP25")
 					(unit 1)
 				)
 			)
@@ -2051,7 +2051,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "ba13793f-9b1d-43ef-a75e-92174e8289c6")
-		(property "Reference" "TP28"
+		(property "Reference" "TP22"
 			(at 176.53 97.2819 0)
 			(effects
 				(font
@@ -2102,7 +2102,7 @@
 		(instances
 			(project "MADC_ARTY"
 				(path "/eadab778-ea7c-433e-b0bd-0d0c238907e0/37dfacfc-f3f5-4a09-9e7e-ab0b8ea302f6/5d4b0f99-b739-4f3c-9f1e-19d2c8b0b121"
-					(reference "TP28")
+					(reference "TP22")
 					(unit 1)
 				)
 			)
@@ -2119,7 +2119,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "fee8399b-5179-4386-8545-893efddd45fa")
-		(property "Reference" "TP32"
+		(property "Reference" "TP26"
 			(at 226.06 99.8221 0)
 			(effects
 				(font
@@ -2170,7 +2170,7 @@
 		(instances
 			(project "MADC_ARTY"
 				(path "/eadab778-ea7c-433e-b0bd-0d0c238907e0/37dfacfc-f3f5-4a09-9e7e-ab0b8ea302f6/5d4b0f99-b739-4f3c-9f1e-19d2c8b0b121"
-					(reference "TP32")
+					(reference "TP26")
 					(unit 1)
 				)
 			)
