@@ -1136,9 +1136,9 @@
 				(justify left top)
 			)
 		)
-		(pin "FGPA_AD_IRP" input
+		(pin "AD_IRP" input
 			(at 207.01 52.07 0)
-			(uuid "fc0bbee9-ac5a-408e-bf2d-66f54ce8496c")
+			(uuid "8f92ef45-886b-4107-a44d-4e0ae94a6248")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1146,9 +1146,9 @@
 				(justify right)
 			)
 		)
-		(pin "FGPA_AD_ID" input
-			(at 207.01 54.61 0)
-			(uuid "aa5776ce-1489-49e7-9cf8-98ad7f5a1f10")
+		(pin "AD_IRN" input
+			(at 207.01 62.23 0)
+			(uuid "1ed7dc2d-39c5-4de5-9598-f82479a2dad0")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1156,19 +1156,9 @@
 				(justify right)
 			)
 		)
-		(pin "AD_COMP" output
-			(at 207.01 57.15 0)
-			(uuid "94c7c1c0-5d00-47bf-acb6-10281bc0e43f")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(pin "FGPA_AD_IIN" input
+		(pin "AD_IIN" input
 			(at 207.01 59.69 0)
-			(uuid "f96690ea-cae1-47a2-9868-a10ef71b71d9")
+			(uuid "69af1573-27e9-4331-b406-8aa67b962332")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1176,9 +1166,9 @@
 				(justify right)
 			)
 		)
-		(pin "ADIN" input
+		(pin "AD_IN" input
 			(at 173.99 52.07 180)
-			(uuid "447d28cd-d86e-455c-911a-0597a9623de2")
+			(uuid "570f7c53-2e97-440e-bb32-01ffd1fd54ba")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1186,9 +1176,9 @@
 				(justify left)
 			)
 		)
-		(pin "FGPA_AD_IRN" input
-			(at 207.01 62.23 0)
-			(uuid "b4e67bd1-f0bc-4cbf-9937-3581c1d1741c")
+		(pin "AD_ID" input
+			(at 207.01 54.61 0)
+			(uuid "3c03b844-53cf-4bd6-9c4d-d776e1e6bd9b")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1196,9 +1186,19 @@
 				(justify right)
 			)
 		)
-		(pin "FPGA_SW_VRH" input
+		(pin "SW_VRH" input
 			(at 207.01 64.77 0)
-			(uuid "03569760-6fda-4017-ac68-a249cdf28c9e")
+			(uuid "c50e7b1a-f41e-43b2-8858-4113142e785d")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "AD_CMP" output
+			(at 207.01 57.15 0)
+			(uuid "16d92f1f-aafe-4919-b2aa-26d6726948f7")
 			(effects
 				(font
 					(size 1.27 1.27)

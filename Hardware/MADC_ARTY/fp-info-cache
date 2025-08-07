@@ -1,4 +1,4 @@
-25972140399483240
+25973894998303923
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -68473,6 +68473,13 @@ G6SK-2F
 0
 10
 10
+MADC
+MADC
+
+
+0
+16
+16
 MADC
 NX5032GA
 Crystal

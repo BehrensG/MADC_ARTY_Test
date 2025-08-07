@@ -2336,7 +2336,7 @@
 	)
 	(wire
 		(pts
-			(xy 129.54 182.88) (xy 128.27 182.88)
+			(xy 123.19 182.88) (xy 121.92 182.88)
 		)
 		(stroke
 			(width 0)
@@ -2466,7 +2466,7 @@
 	)
 	(wire
 		(pts
-			(xy 111.76 171.45) (xy 129.54 171.45)
+			(xy 105.41 171.45) (xy 123.19 171.45)
 		)
 		(stroke
 			(width 0)
@@ -2526,7 +2526,7 @@
 	)
 	(wire
 		(pts
-			(xy 129.54 171.45) (xy 129.54 182.88)
+			(xy 123.19 171.45) (xy 123.19 182.88)
 		)
 		(stroke
 			(width 0)
@@ -2636,7 +2636,7 @@
 	)
 	(wire
 		(pts
-			(xy 113.03 180.34) (xy 111.76 180.34)
+			(xy 106.68 180.34) (xy 105.41 180.34)
 		)
 		(stroke
 			(width 0)
@@ -2956,7 +2956,7 @@
 	)
 	(wire
 		(pts
-			(xy 111.76 180.34) (xy 111.76 171.45)
+			(xy 105.41 180.34) (xy 105.41 171.45)
 		)
 		(stroke
 			(width 0)
@@ -3225,7 +3225,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 113.03 185.42 270)
+		(at 106.68 185.42 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3233,8 +3233,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "17fd8973-0bbe-4789-be19-ba0b208870c4")
-		(property "Reference" "#PWR094"
-			(at 106.68 185.42 0)
+		(property "Reference" "#PWR94"
+			(at 100.33 185.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3243,7 +3243,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 109.22 185.4199 90)
+			(at 102.87 185.4199 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3252,7 +3252,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 113.03 185.42 0)
+			(at 106.68 185.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3261,7 +3261,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 113.03 185.42 0)
+			(at 106.68 185.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3270,7 +3270,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 113.03 185.42 0)
+			(at 106.68 185.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3284,7 +3284,7 @@
 		(instances
 			(project "MADC_ARTY"
 				(path "/eadab778-ea7c-433e-b0bd-0d0c238907e0/37dfacfc-f3f5-4a09-9e7e-ab0b8ea302f6/27287108-2941-4c8d-891f-ed883f0b7bca"
-					(reference "#PWR094")
+					(reference "#PWR94")
 					(unit 1)
 				)
 			)
@@ -3383,7 +3383,7 @@
 		(at 128.27 102.87 180)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
@@ -3440,6 +3440,72 @@
 			(project "MADC_ARTY"
 				(path "/eadab778-ea7c-433e-b0bd-0d0c238907e0/37dfacfc-f3f5-4a09-9e7e-ab0b8ea302f6/27287108-2941-4c8d-891f-ed883f0b7bca"
 					(reference "TP16")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+10V")
+		(at 158.75 177.8 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "2bcdfb79-8bde-4ad1-a2c3-8853c52b15a6")
+		(property "Reference" "#PWR0158"
+			(at 158.75 181.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+10V"
+			(at 158.75 172.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 158.75 177.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 158.75 177.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+10V\""
+			(at 158.75 177.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "dc8ececd-d53f-4386-b591-154814ec660f")
+		)
+		(instances
+			(project "MADC_ARTY"
+				(path "/eadab778-ea7c-433e-b0bd-0d0c238907e0/37dfacfc-f3f5-4a09-9e7e-ab0b8ea302f6/27287108-2941-4c8d-891f-ed883f0b7bca"
+					(reference "#PWR0158")
 					(unit 1)
 				)
 			)
@@ -3940,6 +4006,72 @@
 		)
 	)
 	(symbol
+		(lib_id "MADC_ARTY:-7V")
+		(at 133.35 177.8 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "4f978224-09d2-4f89-b6f0-5daf57473204")
+		(property "Reference" "#PWR0156"
+			(at 133.35 181.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "-7V"
+			(at 133.35 172.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 133.35 177.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 133.35 177.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label"
+			(at 133.35 177.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "f25083f7-2ddb-48f2-a29c-f11c4dbf61d0")
+		)
+		(instances
+			(project "MADC_ARTY"
+				(path "/eadab778-ea7c-433e-b0bd-0d0c238907e0/37dfacfc-f3f5-4a09-9e7e-ab0b8ea302f6/27287108-2941-4c8d-891f-ed883f0b7bca"
+					(reference "#PWR0156")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:PWR_FLAG")
 		(at 77.47 90.17 90)
 		(unit 1)
@@ -4159,6 +4291,72 @@
 		)
 	)
 	(symbol
+		(lib_id "power:PWR_FLAG")
+		(at 133.35 177.8 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "659a002b-1d4b-4e74-9184-4996102ded26")
+		(property "Reference" "#FLG011"
+			(at 133.35 179.705 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "PWR_FLAG"
+			(at 133.35 182.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 133.35 177.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 133.35 177.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Special symbol for telling ERC where power comes from"
+			(at 133.35 177.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "ae9cced7-3732-4b1d-ba5c-e0afc674f5aa")
+		)
+		(instances
+			(project ""
+				(path "/eadab778-ea7c-433e-b0bd-0d0c238907e0/37dfacfc-f3f5-4a09-9e7e-ab0b8ea302f6/27287108-2941-4c8d-891f-ed883f0b7bca"
+					(reference "#FLG011")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:C")
 		(at 64.77 180.34 0)
 		(unit 1)
@@ -4295,6 +4493,72 @@
 		)
 	)
 	(symbol
+		(lib_id "MADC_ARTY:+7V")
+		(at 146.05 177.8 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "8b66ebe7-32b3-4f0a-b8c4-6ab39561f09d")
+		(property "Reference" "#PWR0157"
+			(at 146.05 181.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+7V"
+			(at 146.05 172.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 146.05 177.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 146.05 177.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label"
+			(at 146.05 177.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "1fd0a7aa-465f-4edb-9e7c-73eb266fe5c9")
+		)
+		(instances
+			(project "MADC_ARTY"
+				(path "/eadab778-ea7c-433e-b0bd-0d0c238907e0/37dfacfc-f3f5-4a09-9e7e-ab0b8ea302f6/27287108-2941-4c8d-891f-ed883f0b7bca"
+					(reference "#PWR0157")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:R")
 		(at 78.74 113.03 0)
 		(mirror y)
@@ -4369,7 +4633,7 @@
 		(at 97.79 88.9 0)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
@@ -4660,7 +4924,7 @@
 		(at 200.66 91.44 0)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
@@ -4847,22 +5111,22 @@
 			)
 		)
 		(pin "1"
-			(uuid "9d5d5e28-27ee-4ead-a63d-b0e6c7298802")
+			(uuid "9d5d5e28-27ee-4ead-a63d-b0e6c7298803")
 		)
 		(pin "2"
-			(uuid "759e75fe-929d-48e8-9b4b-85aba1c11c9b")
+			(uuid "759e75fe-929d-48e8-9b4b-85aba1c11c9c")
 		)
 		(pin "3"
-			(uuid "be6ce552-174b-40c6-bd60-de57bf8248a4")
+			(uuid "be6ce552-174b-40c6-bd60-de57bf8248a5")
 		)
 		(pin "5"
-			(uuid "6a9d270f-bcbc-48ae-ac69-88372039d30e")
+			(uuid "6a9d270f-bcbc-48ae-ac69-88372039d30f")
 		)
 		(pin "6"
-			(uuid "978f5473-2007-4668-a66f-0b67dcfcebff")
+			(uuid "978f5473-2007-4668-a66f-0b67dcfcec00")
 		)
 		(pin "7"
-			(uuid "7fb1a6be-7c9e-4920-a0e7-22170c544f89")
+			(uuid "7fb1a6be-7c9e-4920-a0e7-22170c544f8a")
 		)
 		(pin "4"
 			(uuid "8cd4f7e9-c7aa-4e8f-ad04-0f8bc6ce8cb2")
@@ -4889,7 +5153,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "b77ba080-623f-4187-a36a-7a328b62193f")
-		(property "Reference" "#PWR093"
+		(property "Reference" "#PWR93"
 			(at 97.79 110.49 0)
 			(effects
 				(font
@@ -4939,7 +5203,7 @@
 		(instances
 			(project "MADC_ARTY"
 				(path "/eadab778-ea7c-433e-b0bd-0d0c238907e0/37dfacfc-f3f5-4a09-9e7e-ab0b8ea302f6/27287108-2941-4c8d-891f-ed883f0b7bca"
-					(reference "#PWR093")
+					(reference "#PWR93")
 					(unit 1)
 				)
 			)
@@ -5014,6 +5278,72 @@
 		)
 	)
 	(symbol
+		(lib_id "power:PWR_FLAG")
+		(at 158.75 177.8 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "c74b2411-1f58-41f1-8192-a560b3d9c285")
+		(property "Reference" "#FLG014"
+			(at 158.75 179.705 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "PWR_FLAG"
+			(at 158.75 182.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 158.75 177.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 158.75 177.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Special symbol for telling ERC where power comes from"
+			(at 158.75 177.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "b3a36d0d-7d64-4265-ae6e-75d95a48b119")
+		)
+		(instances
+			(project "MADC_ARTY"
+				(path "/eadab778-ea7c-433e-b0bd-0d0c238907e0/37dfacfc-f3f5-4a09-9e7e-ab0b8ea302f6/27287108-2941-4c8d-891f-ed883f0b7bca"
+					(reference "#FLG014")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 52.07 186.69 0)
 		(unit 1)
@@ -5023,7 +5353,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "c9d99157-8b4c-4bc1-abb1-28d4c708e66a")
-		(property "Reference" "#PWR087"
+		(property "Reference" "#PWR87"
 			(at 52.07 193.04 0)
 			(effects
 				(font
@@ -5073,7 +5403,7 @@
 		(instances
 			(project ""
 				(path "/eadab778-ea7c-433e-b0bd-0d0c238907e0/37dfacfc-f3f5-4a09-9e7e-ab0b8ea302f6/27287108-2941-4c8d-891f-ed883f0b7bca"
-					(reference "#PWR087")
+					(reference "#PWR87")
 					(unit 1)
 				)
 			)
@@ -5347,7 +5677,7 @@
 	)
 	(symbol
 		(lib_id "ADC_TEST:OPA2192")
-		(at 119.38 182.88 0)
+		(at 113.03 182.88 0)
 		(mirror x)
 		(unit 2)
 		(exclude_from_sim no)
@@ -5356,7 +5686,7 @@
 		(dnp no)
 		(uuid "e0c602cd-f780-40e5-abe3-f26c2c7bc283")
 		(property "Reference" "U15"
-			(at 120.65 173.99 0)
+			(at 114.3 173.99 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5364,7 +5694,7 @@
 			)
 		)
 		(property "Value" "OPA2192"
-			(at 120.65 176.53 0)
+			(at 114.3 176.53 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5372,7 +5702,7 @@
 			)
 		)
 		(property "Footprint" "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm"
-			(at 119.38 186.69 0)
+			(at 113.03 186.69 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5381,7 +5711,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 119.38 186.69 0)
+			(at 113.03 186.69 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5390,7 +5720,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 119.38 182.88 0)
+			(at 113.03 182.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5399,13 +5729,13 @@
 			)
 		)
 		(pin "1"
-			(uuid "c733a453-1bd0-424a-bf33-70f547385dfc")
+			(uuid "c733a453-1bd0-424a-bf33-70f547385dfd")
 		)
 		(pin "2"
-			(uuid "4903b29b-4e8e-40aa-bc4c-b84c6aee9dae")
+			(uuid "4903b29b-4e8e-40aa-bc4c-b84c6aee9daf")
 		)
 		(pin "3"
-			(uuid "e5d3547a-9da5-4abd-ab2b-569ab42e075a")
+			(uuid "e5d3547a-9da5-4abd-ab2b-569ab42e075b")
 		)
 		(pin "5"
 			(uuid "a425bad3-c5dc-4fee-a93b-06909525313f")
@@ -5417,10 +5747,10 @@
 			(uuid "336d8717-450d-4f65-b25e-eca47f7496d4")
 		)
 		(pin "4"
-			(uuid "1494d0c6-455e-4958-a958-1ab28ae6240f")
+			(uuid "1494d0c6-455e-4958-a958-1ab28ae62410")
 		)
 		(pin "8"
-			(uuid "b7880c93-680c-40b7-9aae-7ba88e1dae67")
+			(uuid "b7880c93-680c-40b7-9aae-7ba88e1dae68")
 		)
 		(instances
 			(project "MADC_ARTY"
@@ -5511,7 +5841,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "e496b072-17d1-4af3-b1f0-455aade402aa")
-		(property "Reference" "#PWR096"
+		(property "Reference" "#PWR96"
 			(at 168.91 72.39 0)
 			(effects
 				(font
@@ -5562,7 +5892,7 @@
 		(instances
 			(project "MADC_ARTY"
 				(path "/eadab778-ea7c-433e-b0bd-0d0c238907e0/37dfacfc-f3f5-4a09-9e7e-ab0b8ea302f6/27287108-2941-4c8d-891f-ed883f0b7bca"
-					(reference "#PWR096")
+					(reference "#PWR96")
 					(unit 1)
 				)
 			)
@@ -5645,7 +5975,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "e81dd7fd-0266-4f6c-8d3f-dde9a1cfcceb")
-		(property "Reference" "#PWR089"
+		(property "Reference" "#PWR89"
 			(at 77.47 193.04 0)
 			(effects
 				(font
@@ -5695,7 +6025,7 @@
 		(instances
 			(project "MADC_ARTY"
 				(path "/eadab778-ea7c-433e-b0bd-0d0c238907e0/37dfacfc-f3f5-4a09-9e7e-ab0b8ea302f6/27287108-2941-4c8d-891f-ed883f0b7bca"
-					(reference "#PWR089")
+					(reference "#PWR89")
 					(unit 1)
 				)
 			)
@@ -5907,6 +6237,72 @@
 		)
 	)
 	(symbol
+		(lib_id "power:PWR_FLAG")
+		(at 146.05 177.8 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "f54ac83e-d541-41d3-bec7-0e86638aed50")
+		(property "Reference" "#FLG012"
+			(at 146.05 179.705 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "PWR_FLAG"
+			(at 146.05 182.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 146.05 177.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 146.05 177.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Special symbol for telling ERC where power comes from"
+			(at 146.05 177.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "241f4498-8fad-41b0-bc58-57d54b2d97a4")
+		)
+		(instances
+			(project "MADC_ARTY"
+				(path "/eadab778-ea7c-433e-b0bd-0d0c238907e0/37dfacfc-f3f5-4a09-9e7e-ab0b8ea302f6/27287108-2941-4c8d-891f-ed883f0b7bca"
+					(reference "#FLG012")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "ADC_TEST:OPA2192")
 		(at 118.11 92.71 0)
 		(unit 1)
@@ -5968,19 +6364,19 @@
 			(uuid "b12e10ec-a07a-46cd-9b3c-0dd40306eedf")
 		)
 		(pin "5"
-			(uuid "d497cf10-de77-4387-8c27-bb3ce465d8a5")
+			(uuid "d497cf10-de77-4387-8c27-bb3ce465d8a6")
 		)
 		(pin "6"
-			(uuid "808cf8cc-d1a1-4d3e-8ff2-a27aba004179")
+			(uuid "808cf8cc-d1a1-4d3e-8ff2-a27aba00417a")
 		)
 		(pin "7"
-			(uuid "4a5a721b-f23a-4532-a669-689f0cae3d06")
+			(uuid "4a5a721b-f23a-4532-a669-689f0cae3d07")
 		)
 		(pin "4"
-			(uuid "918bd3bb-b67e-4d8b-8deb-157f8dadd5f3")
+			(uuid "918bd3bb-b67e-4d8b-8deb-157f8dadd5f4")
 		)
 		(pin "8"
-			(uuid "3ff120ee-b131-43d8-9f94-ed11be2e7085")
+			(uuid "3ff120ee-b131-43d8-9f94-ed11be2e7086")
 		)
 		(instances
 			(project "MADC_ARTY"
@@ -6001,7 +6397,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "ff1c2cf0-2c4c-47b1-bc92-7dd90ac81c6a")
-		(property "Reference" "#PWR097"
+		(property "Reference" "#PWR97"
 			(at 171.45 113.03 0)
 			(effects
 				(font
@@ -6052,7 +6448,7 @@
 		(instances
 			(project "MADC_ARTY"
 				(path "/eadab778-ea7c-433e-b0bd-0d0c238907e0/37dfacfc-f3f5-4a09-9e7e-ab0b8ea302f6/27287108-2941-4c8d-891f-ed883f0b7bca"
-					(reference "#PWR097")
+					(reference "#PWR97")
 					(unit 1)
 				)
 			)
